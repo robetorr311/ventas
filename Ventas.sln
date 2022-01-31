@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas", "Ventas\Ventas.csproj", "{416FD4F1-80A1-4062-99ED-D8490EA67011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Tests", "Ventas.Tests\Ventas.Tests.csproj", "{B499F2EB-59D2-4741-A3A2-258634220ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{416FD4F1-80A1-4062-99ED-D8490EA67011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416FD4F1-80A1-4062-99ED-D8490EA67011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416FD4F1-80A1-4062-99ED-D8490EA67011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416FD4F1-80A1-4062-99ED-D8490EA67011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B499F2EB-59D2-4741-A3A2-258634220ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B499F2EB-59D2-4741-A3A2-258634220ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B499F2EB-59D2-4741-A3A2-258634220ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B499F2EB-59D2-4741-A3A2-258634220ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = application/config+xml
+		$0.XmlFormattingPolicy = $6
+		$6.inheritsSet = null
+		$6.scope = application/config+xml
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = application/xml
+		$0.XmlFormattingPolicy = $8
+		$8.scope = application/xml
+		$0.TextStylePolicy = $9
+		$9.inheritsSet = null
+		$9.scope = text/x-cshtml
+		$0.TextStylePolicy = $10
+		$10.inheritsSet = null
+		$10.scope = application/x-asax
+		$0.StandardHeader = $11
+	EndGlobalSection
+EndGlobal

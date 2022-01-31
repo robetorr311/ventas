@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+  <link href="~/Scripts/assets/img/favicon.png" rel="icon">
+  <link href="~/Scripts/assets/img/favicon.png" rel="apple-touch-icon">               
+  <!-- Latest Bootstrap min CSS -->
+  <!-- Bootstrap CSS File -->
+  <link href="~/Scripts/assets/css/bootstrap.min.css" rel="stylesheet">
+  <script src="~/Scripts/assets/js/jquery.min.js"></script>
+  <script src="~/Scripts/assets/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="~/Scripts/assets/css/bootstrap-datepicker.css" rel="stylesheet">
+  <link href="~/Scripts/assets/css/app.css" rel="stylesheet">        
+</head>
+<body>
+<div class="main-container">  
+<header>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid">
+    <a id="home">Data Entry Forms for Specialized Project Budgeting and Scheduling</a>
+  </div>
+  </nav>
+  <div class="top-header">
+    <div class="header-background">
+    </div>
+  </div>
+</header>
+<main class="main-wrap">
+<section id="content_site">
+   <div class="container text-center">
+    @RenderBody()
+   </div>
+</section>
+</main>
+</div>
+<script src="~/Scripts/assets/js/jquery.bootstrap.wizard.js"></script>
+<script src="~/Scripts/assets/js/form-wizard-init.js"></script>
+<script src="~/Scripts/assets/js/bootstrap-datepicker.min.js"></script>
+<!--<script src="assets/js/main.js"></script>-->    
+</body>
+</html>
