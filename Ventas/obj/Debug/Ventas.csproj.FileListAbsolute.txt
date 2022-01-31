@@ -17,7 +17,6 @@
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Configuration.ConfigurationManager.dll
 /home/robetorr/Projects/Ventas/Ventas/bin/K4os.Compression.LZ4.dll
 /home/robetorr/Projects/Ventas/Ventas/bin/K4os.Hash.xxHash.dll
-/home/robetorr/Projects/Ventas/Ventas/bin/System.Windows.Extensions.dll
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Security.Cryptography.ProtectedData.dll
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Web.Razor.xml
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Web.Helpers.xml

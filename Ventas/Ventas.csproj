@@ -100,12 +100,17 @@
     <Content Include="Scripts\assets\js\main2.js" />
     <Content Include="Scripts\assets\js\bootstrap.min.js" />
     <Content Include="Scripts\assets\css\bootstrap.css" />
+    <Content Include="Scripts\assets\fonts\Centabel-Book.ttf" />
+    <Content Include="Scripts\assets\fonts\Centabel-Book.ttf.eot" />
+    <Content Include="Scripts\assets\fonts\Centabel-Book.ttf.svg" />
+    <Content Include="Scripts\assets\fonts\Centabel-Book.ttf.woff" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\assets\js\bootstrap.bundle.min.js.map" />
     <None Include="Scripts\assets\css\bootstrap.min.css.map" />
     <None Include="Scripts\assets\css\bootstrap.css.map" />
     <None Include="Scripts\assets\css\bootstrap-datepicker.css.map" />
+    <None Include="Scripts\assets\fonts\Centabel-Book.ttf.woff2" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
