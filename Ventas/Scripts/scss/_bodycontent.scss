@@ -1,0 +1,241 @@
+@mixin heading-font {
+  font-family: 'Centabel';
+  font-weight: 800 !important;
+}
+
+@mixin body-font {
+  font-family: 'Centabel';
+  color: darken(#d0cece, 20%) !important;
+}
+@font-face {
+    font-family: 'Centabel';
+    src:url('../fonts/Centabel-Book.ttf.woff') format('woff'),
+        url('../fonts/Centabel-Book.ttf.woff2') format('woff2'),
+        url('../fonts/Centabel-Book.ttf.eot'),
+        url('../fonts/Centabel-Book.ttf.ttf') format("truetype"),
+        url('../fonts/Centabel-Book.ttf.eot?#iefix') format('embedded-opentype');
+}
+header{
+  font-family: 'Centabel';
+  color: #333333 !important;
+}
+html {
+    height: 100%;
+}
+body {
+  font-family: 'Centabel';
+  color: #333333 !important;
+  height: 100%;
+}
+footer{
+  padding-top: 50px !important;
+  font-family: 'Centabel';
+  color: #333333 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Centabel';
+}
+.top-header {
+  color: $white !important;
+  padding-top: 50px;
+}
+.header-text{
+  font-family: 'Centabel';
+  color: #333333 !important;
+}
+.navbar{
+  background-color: #d0cece !important;
+}
+.navbar-brand{
+  color: #333333 !important;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+  padding-top: 20em;
+  padding-bottom:50px; /* 70px = footer height + expected padding */
+  margin-bottom: -4em;  /* brings the footer into the padding gap */
+}
+.footer {
+  height: 4em;
+}
+.gallery_title{
+  font-family: 'Centabel';
+  color: #333333 !important;
+  font-weight: 800 !important;
+  font-size: 4em;
+}
+.github{
+  text-decoration: none;
+  color: $white !important;
+  cursor: pointer;
+} 
+.footer-links{
+  text-decoration: none;
+  color: $white !important;
+  cursor: pointer;
+  font-size: 30px;
+} 
+.dropdown-item{
+  color: #d0cece !important;
+}
+.header-left{
+  padding-left: 20px !important;
+}
+.bg-primary {
+  background-color: #333333 !important;
+}
+
+.btn-primary {
+  background-color: #333333;
+  border-color: #333333;
+  color: white;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: lighten(#333333, 10%) !important;
+    border-color: lighten(#333333, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out(#333333, 0.5);
+  }
+}
+#bottomf a{
+  color: $white !important;
+  text-decoration: none;
+}
+.bottom-footer {
+  color: #660066 !important;
+  background: #d0cece;
+  padding: 50px;
+  height: 130px;
+  background-color: #d0cece; /* For browsers that do not support gradients */
+  background-image: linear-gradient($purp, #d0cece);  
+}
+.top_logo{
+  max-width: 200px !important;
+  cursor: pointer;
+}
+.bg-light {
+    background-color: #dee2e6 !important;
+}
+
+.nav-link {
+  color: #333333 !important;
+  font-family: 'Centabel';
+  font-weight: 800 !important;
+  font-size: 2em;
+  cursor: pointer;
+  &:active,
+  &:focus,
+  &:hover {
+    color: lighten(#333333, 20%) !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+  }
+  &:focus {
+    color: lighten(#333, 20%) !important;
+  }
+}
+.top-header{
+    color: #333 !important;
+    height: 20px;
+    background-color: #dee2e6 !important;  
+}
+.header-background {
+    color: #333 !important;
+    padding-top: 50px;
+    width: 100%;
+    height: 320px;
+    background-color: #dee2e6 !important;
+}
+#section1{
+    color: #333 !important;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Centabel';
+    font-weight: 800 !important;
+    font-size: 1.3em;
+    background-color: #dee2e6 !important;  
+}
+#section2{
+    color: #333 !important;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Centabel';
+    font-weight: 800 !important;
+    font-size: 1.3em;
+    background-color: white !important;  
+}
+#section3{
+    color: #333 !important;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Centabel';
+    font-weight: 800 !important;
+    font-size: 1.3em;
+    background-color: white !important;  
+}
+#section4{
+    color: #333 !important;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Centabel';
+    font-weight: 800 !important;
+    font-size: 1.3em;
+    background-color: white !important;  
+}
+.footer-background {
+    color: #333 !important;
+    padding-top: 50px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Centabel';
+    font-weight: 800 !important;
+    font-size: 1.3em;
+    background-color: #dee2e6 !important;
+}
+.top_logo{
+  width: 200px;
+}
+@media only screen and (min-width: 300px){
+
+}
+
+@media only screen and (min-width: 400px){
+
+}
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 700px) {
+}
+
+@media only screen and (min-width: 810px) {
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+.main-wrap {
+  overflow: hidden;
+  min-height: 100%; 
+}

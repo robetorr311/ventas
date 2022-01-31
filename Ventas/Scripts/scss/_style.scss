@@ -1,0 +1,236 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, table, img {
+  margin:0;
+  padding:0;
+  font-family:Lato, sans-serif;
+  border-width:0;
+    border:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ui-tooltip {
+  color:#000000;
+  font-family:Lato, sans-serif;
+  font-size:16px;
+  font-style:italic;
+  font-weight:normal;
+  line-height:1.583;
+  text-align:left;
+}
+.ui-tooltip-content {
+  color:#000000;
+  font-family:Lato, sans-serif;
+  font-size:16px;
+  font-style:italic;
+  font-weight:normal;
+  line-height:1.583;
+  text-align:left;
+    padding:10px;
+    background-color:#FFFFFF;
+    border-style:solid;
+    border-width:2px;
+}
+img.sortimg {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+#topimg {
+  z-index:2;
+  position: relative;
+}
+#bottomimg {
+  z-index:1;
+}
+div.sortit {
+    margin-left: 0;
+    margin-right: 0;
+}
+div.header {
+    margin-left: 0;
+    margin-right: 0;
+    border:0;
+    padding:0;
+    border-width:0;
+}
+table.header_table {
+  background-color: #1B75BC;
+}
+button {
+    background-color:#FFFFFF;
+    border-style:solid;
+    border-color:#1b75bc;
+    font-size:15px;
+    width:150px;
+    height: 40px;
+}
+button.big_button-continue {
+  color:#ffffff;
+  font-family:"Lato", sans-serif;
+  font-weight:500;
+  line-height:1.2;
+    background-color:#27a8e0;
+    border:none;
+  text-align:center;
+  text-transform:uppercase;
+}
+input[type=text] {
+  height: 18px;
+  width: 45px;
+  padding: 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  text-align: center;
+  color:#1b75bc;
+}
+.big_button-help {
+    background-color:#FFFFFF;
+  color:#1b75bc;
+  font-family:"Lato", sans-serif;
+  font-weight:500;
+  line-height:1.2;
+  text-align:center;
+  text-transform:uppercase;
+}
+.big_button-small {
+  color:#ffffff;
+    background-color:#27a8e0;
+  font-size:14px;
+  font-weight:500;
+  line-height:0.8;
+    border:none;
+  text-align:center;
+  text-transform:uppercase;
+}
+.textboxarea {
+  height: 3em;
+  width: 30em;
+  font-family:"Lato", sans-serif;
+    border-style:solid;
+    border-color:#1b75bc;
+}
+.rank-label {
+    display:inline-block;
+    width: 50px;
+    height:22px;
+    background-color: #E4ECF6;
+  color:#1b75bc;
+  font-family:"Lato", sans-serif;
+  font-size:22px;
+  font-weight:600;
+  line-height:22px;
+    border-width:1px;
+    border-style:solid;
+    border-color:darkgray;
+    text-align: center;
+}
+p.field-number-for-drag {
+  color:#1b75bc;
+  font-family:"Lato", sans-serif;
+  font-size:17px;
+  font-weight:600;
+  line-height:1.805;
+  text-align:center;
+  text-transform:uppercase;
+}
+.big_button-save {
+    color:#1b75bc;
+  font-family:"Lato", sans-serif;
+  font-weight:500;
+  line-height:1.2;
+  text-align:center;
+  text-transform:uppercase;
+}
+p.footer-text {
+  color:#b1b2b3;
+  font-family:Lato, sans-serif;
+  font-size:13px;
+  font-weight:normal;
+    margin-left:10px;
+}
+h1 {
+  color:#27a8e0;
+  font-family:Lato, sans-serif;
+  font-size:27px;
+  font-weight:normal;
+  line-height:1.6;
+  text-align:left;
+}
+h4 {
+  color:#1b75bc;
+  font-family:"Lato", sans-serif;
+  font-size:20px;
+  font-weight:600;
+  line-height:1.6;
+  margin-bottom:8px;
+  text-align:left;
+  text-transform:uppercase;
+}
+.label-field-true {
+  color:#939598;
+  font-family:"Lato Medium", sans-serif;
+  font-size:11px;
+  font-weight:500;
+  line-height:1.375;
+}
+.label-field-true-number {
+  color:#939598;
+  font-family:"Lato Heavy", sans-serif;
+  font-size:13px;
+  font-weight:800;
+}
+p.labels-for-drag {
+  color:#000000;
+  font-family:"Lato Semibold", sans-serif;
+  font-size:17px;
+  font-weight:600;
+}
+p {
+  color:#000000;
+  font-family:Lato, sans-serif;
+  font-size:17px;
+  font-weight:normal;
+  line-height:1.5;
+}
+p.p-instructions {
+  color:#636466;
+  font-family:Lato, sans-serif;
+  font-size:17px;
+  font-style:italic;
+  font-weight:normal;
+}
+p.popover-text {
+  color:#000000;
+  font-family:Lato, sans-serif;
+  font-size:16px;
+  font-style:italic;
+  font-weight:normal;
+  line-height:1.583;
+  text-align:left;
+}
+.error {
+  color: red;
+  font-family:Lato, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+}
+.success {
+  color: #FFFFFF;
+  font-family:Lato, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+  width: 80%;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
