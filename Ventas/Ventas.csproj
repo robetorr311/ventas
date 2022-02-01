@@ -60,8 +60,11 @@
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\..\..\Downloads\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\netstandard2.0\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +78,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Models\UsersModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

@@ -30,6 +30,9 @@
 /home/robetorr/Projects/Ventas/Ventas/obj/Debug/Ventas.csproj.CopyComplete
 /home/robetorr/Projects/Ventas/Ventas/obj/Debug/Ventas.dll
 /home/robetorr/Projects/Ventas/Ventas/obj/Debug/Ventas.pdb
+/home/robetorr/Projects/Ventas/Ventas/bin/System.Text.Encoding.CodePages.dll
+/home/robetorr/Projects/Ventas/Ventas/bin/System.Diagnostics.DiagnosticSource.dll
+/home/robetorr/Projects/Ventas/Ventas/bin/System.Diagnostics.DiagnosticSource.xml
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Memory.dll
 /home/robetorr/Projects/Ventas/Ventas/bin/System.Numerics.Vectors.dll
-/home/robetorr/Projects/Ventas/Ventas/bin/System.Text.Encoding.CodePages.dll
+/home/robetorr/Projects/Ventas/Ventas/bin/System.Buffers.dll
